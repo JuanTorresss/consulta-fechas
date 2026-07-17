@@ -186,7 +186,7 @@ st.write(
 
 cedula = st.text_input(
     "Número de cédula",
-    placeholder="Ejemplo: 1000135766"
+    placeholder="Ejemplo: 1000123456"
 )
 
 if st.button("Consultar"):
