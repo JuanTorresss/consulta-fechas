@@ -176,13 +176,24 @@ for i in [99,0]:
 # ---------------------------------
 
 st.markdown(
-    "<h1 style='text-align: center;'>email: juannicolas2012@gmail.com</h2>", 
+    """
+    <p style='text-align: center; font-size:18px;'>
+        📧 Email: juannicolas2012@gmail.com
+    </p>
+    """,
     unsafe_allow_html=True
 )
+
 st.markdown(
-    "<h1 style='text-align: center;'>Whatsapp: +57 3134161053</h2>", 
+    """
+    <p style='text-align: center; font-size:18px;'>
+        📱 WhatsApp: +57 3134161053
+    </p>
+    """,
     unsafe_allow_html=True
 )
+
+
 st.markdown(
     "<h1 style='text-align: center;'>📅 Consulta Fecha de vencimiento Declaración de renta</h1>", 
     unsafe_allow_html=True
