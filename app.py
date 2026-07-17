@@ -6,7 +6,7 @@ import streamlit as st
 col1, col2, col3 = st.columns([1,2,1])
 
 with col2:
-    st.image("logo Juan Torres.png", width=300)
+    st.image("logo Juan Torres.png", width=400)
 
 
 # ---------------------------------
@@ -186,7 +186,7 @@ st.markdown(
 
 st.markdown(
     """
-    <p style='text-align: center; font-size:18px;'>
+    <p style='text-align: center; font-size:16px;'>
         📱 WhatsApp: +57 3134161053
     </p>
     """,
