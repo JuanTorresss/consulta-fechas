@@ -209,8 +209,9 @@ cedula = st.text_input(
 )
 
 if st.button("Consultar"):
-st.image("3148295.png", width=50)
-    
+
+    st.image("3148295.png", width=50)
+
     if cedula.strip() == "":
         st.warning("Ingrese una cédula.")
 
