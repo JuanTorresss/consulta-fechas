@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit.components.v1 import html
 
 # ---------------------------------
 # Configuración de la página
@@ -209,7 +210,16 @@ cedula = st.text_input(
 )
 
 if st.button("Consultar"):
-
+ html("""
+    <script>
+    setTimeout(function() {
+        window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: 'smooth'
+        });
+    },100);
+    </script>
+    """)
     if cedula.strip() == "":
         st.warning("Ingrese una cédula.")
 
