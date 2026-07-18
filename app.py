@@ -222,7 +222,23 @@ if st.button("Consultar"):
 
         st.divider()
 
-        st.info(f"📅 Su fecha límite es **{fecha}**"; font-size:30px;)
+st.markdown(
+    f"""
+    <div style="
+        background-color:#d1ecf1;
+        padding:20px;
+        border-radius:10px;
+        text-align:center;
+        font-size:30px;
+        font-weight:bold;
+        color:#0c5460;
+    ">
+        📅 Su fecha límite es:<br>
+        {fecha}
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
         st.success("Consulta realizada correctamente")
 
