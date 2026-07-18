@@ -210,7 +210,10 @@ cedula = st.text_input(
 
 if st.button("Consultar"):
 
-    st.image("3148295.png", width=50)
+    col1, col2, col3 = st.columns([1,1,1])
+
+    with col2:
+        st.image("3148295.png", width=80)
 
     if cedula.strip() == "":
         st.warning("Ingrese una cédula.")
@@ -219,7 +222,6 @@ if st.button("Consultar"):
         st.error("La cédula solo debe contener números.")
 
     else:
-
         ultimos = cedula[-2:]
         fecha = fechas.get(ultimos)
 
