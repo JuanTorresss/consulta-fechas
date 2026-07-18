@@ -195,7 +195,7 @@ st.markdown(
 
 
 st.markdown(
-    "<h1 style='text-align: center;'>📅 Consulta Fecha de vencimiento Declaración de renta</h1>", 
+    "<h1 style='text-align: center; font-size:30px;'>📅 Consulta Fecha de vencimiento Declaración de renta</h1>", 
     unsafe_allow_html=True
 )
 
@@ -222,11 +222,8 @@ if st.button("Consultar"):
 
         st.divider()
 
+        st.info(f"📅 Su fecha límite es **{fecha}**"; font-size:30px;)
+
         st.success("Consulta realizada correctamente")
 
-        st.metric(
-            "Últimos dos dígitos",
-            ultimos
-        )
 
-        st.info(f"📅 Su fecha límite es **{fecha}**")
