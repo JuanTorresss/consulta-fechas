@@ -195,12 +195,12 @@ st.markdown(
 
 
 st.markdown(
-    "<h1 style='text-align: center; font-size:30px;'>📅 Consulta Fecha de vencimiento Declaración de renta</h1>", 
+    "<h1 style='text-align: center; font-size:20px;'>📅 Consulta Fecha de vencimiento Declaración de renta</h1>", 
     unsafe_allow_html=True
 )
 
 st.write(
-    "Digite su número de cédula o NIT para consultar la fecha correspondiente."
+    "Digite su número de cédula o NIT."
 )
 
 cedula = st.text_input(
